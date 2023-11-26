@@ -19,6 +19,8 @@ function App() {
          <ImagesGallery/>
          <Contact/>
          <Footer/>
+         <div className='yellow'>
+         </div>
     </div>
   );
 }
