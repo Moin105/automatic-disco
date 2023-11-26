@@ -43,7 +43,7 @@
       border: none;
       background-color: #ffac12;
       line-height: 24px;
-      padding: 16px 33px;
+      padding: 12px 33px;
       color: white;
       border-radius: 6px;
     }
@@ -90,7 +90,7 @@
         border: none;
         background-color: #ffac12;
         line-height: 24px;
-        padding: 16px 33px;
+        padding: 12px 33px;
         color: white;
         border-radius: 6px;
       }
@@ -156,6 +156,51 @@
     }
     .nav {
         display: none;
+    }
+  }
+}
+.flayer{
+  display: flex;
+  // flex-direction: column;
+  // padding: 14px ;
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  height: 105vh;
+  width: 100%;
+
+  z-index: 999999999999999999999999999999999999999999999999999999999999999;
+  ul{
+    display: flex;
+    gap: 16px;
+    width: 80%;
+    margin-top: 12px;
+    flex-direction: column;
+    background-color: white;
+    list-style-type: none;
+    li{
+      text-align: left;
+      font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 23.4px; 
+    }
+  }
+  .close{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0px 0px 0px;
+    background-color: black;
+    .button{
+      font-size: 40px;
+      border: none;
+      background-color: transparent;
+      color: #ffac12;
+      
     }
   }
 }

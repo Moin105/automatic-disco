@@ -71,10 +71,10 @@
   line-height: 27px;
 }
 .card-container .card-content .card-left .view {
-  width: 160px;
-  padding: 16px 0px;
+  width: 80px;
+  padding: 8px 0px;
   background-color: #ffac12;
-  border-radius: 8px;
+  border-radius: 4px;
   color: white;
   border: none;
   margin-top: 9px;

@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../../Images/logo.png'
 import './styles.css'
+import { IoMdCloseCircle } from "react-icons/io";
+
 function Header() {
   const [show,setShow] = React.useState(false)
   const ham =<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -24,9 +26,22 @@ function Header() {
          </ul>
          <button className='button'>Work with us</button>
          </div>
-         <div className='ham'>
+         <div className='ham' onClick={()=>{setShow(!show)}}>
          {ham} </div>
     </header>
+ {show &&   <div className='flayer'>
+ <div className='close'>
+    <button className='button' onClick={()=>{setShow(false)}} ><IoMdCloseCircle/></button>
+     </div>   
+    <ul>
+            <li onClick={()=>{setShow(false)}}>Home</li>
+            <li onClick={()=>{setShow(false)}}>Services</li>
+            <li onClick={()=>{setShow(false)}}>Invest</li>
+            <li onClick={()=>{setShow(false)}}>Calculator</li>
+            <li onClick={()=>{setShow(false)}}>Contact us</li>
+         </ul>
+       
+    </div>}
     </div>
   )
 }

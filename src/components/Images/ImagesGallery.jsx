@@ -5,6 +5,7 @@ import bottomtop from '../../Images/bottomtop.png'
 import bottomleftbottom from '../../Images/bottomleftbottom.png'
 import box2 from '../../Images/box2.png'  
 import innerleftbottom from '../../Images/innerleftbottom.png'
+import bottomrightbottoms from '../../Images/bottomrightbottoms.png'
 import box from '../../Images/box.png'
 function ImagesGallery() {
   return (
@@ -37,7 +38,7 @@ function ImagesGallery() {
                   </div>
                 </div>
                 <div className="inner-right">
-                  <img src={bottomleftbottom}/>
+                  <img src={bottomrightbottoms}/>
                 </div>
               </div>
             </div>

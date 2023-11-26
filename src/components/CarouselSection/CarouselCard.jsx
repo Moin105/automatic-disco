@@ -14,7 +14,7 @@ function CarouselCard({image,name,description,bed,bath,area}) {
             <div className='card-left'>
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <button className='view'>view</button>
+                <button className='view'>VIEW</button>
             </div>
             <div className='card-right'>
                <table>
