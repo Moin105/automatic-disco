@@ -1,0 +1,131 @@
+.carousel-sections {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  padding: 20px 0px;
+  // margin: 0 auto;
+  width: 90%;
+  background: #f5f5f5;
+  h2 {
+    text-align: center;
+    /* h3 */
+    font-family: Almarai;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.8px; /* 130% */
+    text-transform: capitalize;
+    opacity: 0.88;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 7px;
+  align-items: center;
+  
+    /* card shadow */
+    // box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+  height: 400px;
+  padding: 11px 8px 13px 8px;
+  figure {
+    margin: 0px;
+    width: 395px;
+    height: 265px;
+    img {
+      width: 100%;
+      border-radius: 4px;
+      height: 100%;
+    }
+  }
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--light-grey, #f5f5f5);
+    background: var(--white, #fff);
+
+    width: 395px;
+    .card-left {
+      display: flex;
+      flex-direction: column;
+      h3 {
+        /* text big */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin: 0px;
+      }
+      p {
+        margin: 0px;
+        color: #848484;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+      }
+      .view {
+        width: 160px;
+        padding: 16px 0px;
+        background-color: #ffac12;
+        border-radius: 8px;
+        color: white;
+        border: none;
+        margin-top: 9px;
+      }
+    }
+    .card-right {
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        tr {
+          display: flex;
+          justify-content: space-between;
+          th {
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            img{
+              object-fit: contain;
+            }
+            line-height: 27px;
+            padding: 16px 25px;
+            text-align: right;
+            color: #848484;
+          }
+        }
+        tbody tr {
+          display: flex;
+          justify-content: space-between;
+          td {
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 27px;
+            padding: 16px 25px;
+            text-align: right;
+            color: #848484;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 905px) {
+.card-container{
+  margin: 0 auto;
+}
+}
