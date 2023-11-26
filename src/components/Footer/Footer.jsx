@@ -100,8 +100,8 @@ function Footer() {
         <h4>Contact Us</h4>
         <ul>
           <li>Address Somewhere in World, CA, USA</li>
-          <li>icon 12345677</li>
-          <li>icon info@example.com</li>
+          <li>12345677</li>
+          <li>info@example.com</li>
         </ul>
       </div>
       <div className="col-3">
