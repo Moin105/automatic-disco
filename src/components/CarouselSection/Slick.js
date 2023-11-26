@@ -48,6 +48,9 @@ export default class MultipleItems extends Component {
     {name : 'House 6',image:slide6,description:'Washington',bath:'2',bed:'3',area:'1500 sqft'},
     ]
     return (
+      <div style={{background:"#f5f5f5"}}>
+
+      
       <div className="carousel-sections container">
         <h2>Recently Up For Sale </h2>
         <Slider {...settings}>
@@ -61,6 +64,7 @@ export default class MultipleItems extends Component {
           })}
       
         </Slider>
+      </div>
       </div>
     );
   }

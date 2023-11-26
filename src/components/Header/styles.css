@@ -169,7 +169,7 @@
   right: 0;
   height: 105vh;
   width: 100%;
-  z-index: 1000000000000000000000000000000000000000000000000000000000000000;
+  z-index: 9999;
 }
 .flayer ul {
   display: flex;

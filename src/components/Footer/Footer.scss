@@ -29,6 +29,7 @@
     figure {
       margin: 0px;
       width: 133px;
+      margin: 0px 0px 0px -20px;
       height: 133px;
       img {
         width: 100%;
@@ -103,10 +104,10 @@
     flex-direction: column;
     width: 164px;
     margin: 49px 230px 0px 0px;
-    gap: 17px;
+    gap: 44px;
  h4{
     font-family: Roboto;
-      text-align: center;
+      text-align: left;
       font-size: 20px;
       font-style: normal;
       margin: 0px;
