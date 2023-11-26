@@ -7,9 +7,16 @@ import box2 from '../../Images/box2.png'
 import innerleftbottom from '../../Images/innerleftbottom.png'
 import bottomrightbottoms from '../../Images/bottomrightbottoms.png'
 import box from '../../Images/box.png'
+import SimpleSlider from "./SlickGallery";
 function ImagesGallery() {
   return (
+    <>
+    <div className="shoers">
+    <SimpleSlider/>
+    </div>
+   
     <div className="gallery container">
+      
       <div className="gallery-left">
         <div className="gallery-box">
           <div className="top">
@@ -63,6 +70,7 @@ function ImagesGallery() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
