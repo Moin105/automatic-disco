@@ -78,6 +78,12 @@
     align-items: center;
     gap: 104px;
   }
+  .header .nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+  }
   .header .nav ul {
     display: flex;
     padding: 0;
@@ -185,6 +191,12 @@
   flex-direction: column;
   background-color: white;
   list-style-type: none;
+}
+.flayer ul a {
+  text-decoration: none;
+  color: black;
+  font-family: Roboto;
+  font-size: 18px;
 }
 .flayer ul li {
   text-align: left;

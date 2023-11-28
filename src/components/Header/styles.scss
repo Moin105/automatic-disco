@@ -73,6 +73,12 @@
       display: flex;
       align-items: center;
       gap: 104px;
+      a{
+        text-decoration: none;
+        color: black;
+        font-family: Roboto;
+        font-size: 18px;
+      }
       ul {
         display: flex;
         padding: 0;
@@ -185,6 +191,12 @@
     flex-direction: column;
     background-color: white;
     list-style-type: none;
+    a{
+      text-decoration: none;
+      color: black;
+      font-family: Roboto;
+      font-size: 18px;
+    }
     li{
       text-align: left;
       font-family: Roboto;
