@@ -130,7 +130,7 @@
   gap: 8px;
 }
 .gallery .gallery-right .project-card .color-yellow-text {
-  color: #ffac12;
+  color: #D52128;
   text-align: center;
   /* h3 */
   font-family: Almarai;
@@ -294,7 +294,7 @@
     gap: 8px;
   }
   .gallery .gallery-right .project-card .color-yellow-text {
-    color: #ffac12;
+    color: #D52128;
     text-align: center;
     /* h3 */
     font-family: Almarai;
@@ -457,7 +457,7 @@
     gap: 8px;
   }
   .gallery .gallery-right .project-card .color-yellow-text {
-    color: #ffac12;
+    color: #D52128;
     text-align: center;
     /* h3 */
     font-family: Almarai;
@@ -622,7 +622,7 @@
     gap: 8px;
   }
   .gallery .gallery-right .project-card .color-yellow-text {
-    color: #ffac12;
+    color: #D52128;
     text-align: center;
     /* h3 */
     font-family: Almarai;
@@ -663,7 +663,7 @@
   gap: 8px;
 }
 .project-card .color-yellow-text {
-  color: #ffac12;
+  color: #D52128;
   text-align: center;
   /* h3 */
   font-family: Almarai;
@@ -705,7 +705,7 @@
     gap: 8px;
   }
   .project-card .color-yellow-text {
-    color: #ffac12;
+    color: #D52128;
     text-align: center;
     /* h3 */
     font-family: Almarai;
@@ -747,7 +747,7 @@
     gap: 8px;
   }
   .project-card .color-yellow-text {
-    color: #ffac12;
+    color: #D52128;
     text-align: center;
     /* h3 */
     font-family: Almarai;
@@ -798,7 +798,7 @@
     margin: 0 auto;
   }
   .project-card .color-yellow-text {
-    color: var(--orange, #FFAC12);
+    color: var(--orange, #D52128);
     text-align: center;
     font-family: Almarai;
     font-size: 31px;

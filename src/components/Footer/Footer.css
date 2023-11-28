@@ -14,7 +14,7 @@
 }
 .footer .col-4 figure {
   margin: 0px;
-  width: 55px;
+  width: 145px;
   height: 55px;
 }
 .footer .col-4 figure img {
@@ -29,9 +29,9 @@
 }
 .footer .col-1 figure {
   margin: 0px;
-  width: 133px;
-  margin: 0px 0px 0px -20px;
-  height: 133px;
+  width: 153px;
+  margin: 0px 0px 30px -20px;
+  height: 75px;
 }
 .footer .col-1 figure img {
   width: 100%;
@@ -133,8 +133,8 @@
   }
   .footer .col-1 figure {
     margin: 0px;
-    width: 133px;
-    height: 133px;
+    width: 153px;
+    height: 75px;
   }
   .footer .col-1 figure img {
     width: 100%;
@@ -236,8 +236,8 @@
   }
   .footer .col-1 figure {
     margin: 0px;
-    width: 133px;
-    height: 133px;
+    width: 153px;
+    height: 75px;
   }
   .footer .col-1 figure img {
     width: 100%;

@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../Images/logo.png'
 import './styles.css'
 import { IoMdCloseCircle } from "react-icons/io";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const [show,setShow] = React.useState(false)
@@ -18,11 +19,28 @@ function Header() {
          </figure>
          <div className='nav'>
          <ul>
+            <Link to="/home">
             <li>Home</li>
+            </Link>
+            <Link to="/services">
             <li>Services</li>
+            </Link>
+            <Link to="/upforsale">
+            <li>Up for Sale</li>
+            </Link>
+            {/* <Link to="">
             <li>Invest</li>
+            </Link> */}
+            {/* <Link>
             <li>Calculator</li>
+            </Link> */}
+            <Link to="/contact">
             <li>Contact us</li>
+            </Link>
+            
+            
+           
+           
          </ul>
          <button className='button'>Work with us</button>
          </div>
@@ -34,11 +52,18 @@ function Header() {
     <button className='button' onClick={()=>{setShow(false)}} ><IoMdCloseCircle/></button>
      </div>   
     <ul>
-            <li onClick={()=>{setShow(false)}}>Home</li>
+           <Link to="/home">
+           <li onClick={()=>{setShow(false)}}>Home</li>
+           </Link> 
+           <Link to="/services">
             <li onClick={()=>{setShow(false)}}>Services</li>
-            <li onClick={()=>{setShow(false)}}>Invest</li>
-            <li onClick={()=>{setShow(false)}}>Calculator</li>
+            </Link>
+            <Link to="/upforsale">
+            <li onClick={()=>{setShow(false)}}>Up for Sale</li>
+            </Link>
+           <Link to="/contact">
             <li onClick={()=>{setShow(false)}}>Contact us</li>
+           </Link>
          </ul>
        
     </div>}

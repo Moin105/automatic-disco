@@ -1,0 +1,18 @@
+.row-header-sector{
+width: 90%;
+margin: 0 auto;
+max-width: 1440px;
+display: flex;
+padding: 20px 0px;
+font-size: 20px;
+color:black;
+
+}
+.page-template{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.spacer{
+    margin: 0px 0px 40px 0px;
+}

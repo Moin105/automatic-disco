@@ -120,6 +120,7 @@ function Footer() {
           {twitter}
           {instagram}
         </div>
+        
         <figure className="footer-logo">
           <img src={logo} alt="Docplanner Group" />
         </figure>
